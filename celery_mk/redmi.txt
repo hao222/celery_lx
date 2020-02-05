@@ -1,0 +1,5 @@
+
+# 配合djcelery 实现异步耗时操作
+# 配置celery_  在settings下引用
+# 在settings 下注册djcelery  并启动worker python manage,py celery worker - info
+# 启动站点
